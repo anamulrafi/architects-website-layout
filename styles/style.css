@@ -1,8 +1,7 @@
 /*------------
  fonts
  ----------- */
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@700&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@400;700&display=swap');
 /* ------
 common styles or utilities 
 --------*/
@@ -87,6 +86,65 @@ text-align: center;
 /* ---------
 introduction part style end ------
  ----------- */
+
+ /* Quick list section style start */
+
+
+ .quick-list-section{
+    margin: 80px 250px 80px 250px;
+ }
+ /* Images style start */
+ .quick-list-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+ }
+ .quick-list-image img{
+    width:342px;
+    height:342px;
+ }
+ /* images style end */
+/* ------
+Quick list Content style start
+---- */
+.quick-list-content{
+    margin-top: 180px;
+}
+.quick-list-content h1{
+    font-size: 2.8125rem ;
+    font-weight: 500;
+    color: #727272;
+}
+.of-our-bold{
+    font-weight: 700;
+    color: #131313;
+}
+.features{
+    font-weight: 700;
+    color:#FF900E;
+}
+.quick-list-content>p{
+    color: #727272;
+    font-size: 16px;
+}
+.quick-list{
+    display: flex;
+    column-gap: 60px;
+}
+#explore-more-from-quick-feature{
+    margin-left: -2px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
