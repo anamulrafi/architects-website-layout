@@ -88,8 +88,6 @@ introduction part style end ------
  ----------- */
 
  /* Quick list section style start */
-
-
  .quick-list-section{
     margin: 80px 250px 80px 250px;
  }
@@ -238,6 +236,32 @@ introduction part style start
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+ /* Quick list section style start */
+ .quick-list-section{
+    margin: 30px 10px 30px 10px;
+ }
+ /* Images style start */
+ .quick-list-images{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:10px;
+ }
+ /* images style end */
+/* ------
+Quick list Content style start
+---- */
+.quick-list-content{
+    margin-top: 10px;
+}
+.quick-list-content h1{
+    font-size: 1.8125rem ;  
+}
+.quick-list{
+    flex-direction: column;
+    column-gap: 60px;
+}
+#explore-more-from-quick-feature{
+    margin-top: 15px;
 }
 
  }
