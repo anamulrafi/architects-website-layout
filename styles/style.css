@@ -6,6 +6,84 @@
 /* ------
 common styles or utilities 
 --------*/
+.introducing-section{
+width: 1440px;
+height: 1322px;
+background-color: #FF900E1A;
+padding-left: 240px;  
+padding-right: 240px;
+}
 body{
     font-family:'Work Sans', sans-serif;
+     margin:0px;
 }
+/* Nav-bar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 45px;
+}
+.menu-options{
+    height: 26px;
+    width:477px;
+    margin-top: 63px;
+    text-align: center;
+}
+.menu-options a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* nav style end */
+
+/* ---------
+introduction part style start
+ ----------- */
+.introduction-content{
+width: 862px;
+height: 225px;
+margin: auto;
+text-align: center;
+}
+.introduction-content h1{
+ font-size: 64px;
+ color: #131313;
+}
+.introduction-content p{
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+    margin-top: -45px;
+
+   }
+/* Explore More Button style */
+.explore-more-button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+.explore-more-button p{
+    padding-top: 18px;
+}
+
+/* Banner image style  */
+.banner-image{
+    padding-top: 65px;
+}
+/* ---------
+introduction part style end ------
+ ----------- */
