@@ -1,0 +1,11 @@
+/*------------
+ fonts
+ ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@700&display=swap');
+
+/* ------
+common styles or utilities 
+--------*/
+body{
+    font-family:'Work Sans', sans-serif;
+}
