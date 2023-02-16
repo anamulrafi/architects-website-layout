@@ -133,6 +133,54 @@ Quick list Content style start
     margin-left: -2px;
     margin-top: 40px;
 }
+/* ---------
+Features list Part Start 
+-----------*/
+.feature-list-section{
+    margin: 130px 240px 130px 240px;
+   
+    
+}
+.features-list-title>h1{
+    border-left: 6px solid #FF900E;
+    padding-left: 16px;
+    font-size: 2.8125rem ;
+    font-weight: 700;
+}
+.feature-list{
+    padding: 10px;
+    box-shadow: 10px 10px 40px rgb(229, 231, 228);
+}
+.feature-list-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    align-items: stretch;
+}
+/* Architect image style start */
+.architect-image>img{
+    position: relative;
+}
+
+.experience-button {
+    position: absolute;
+    width: 258px;
+    height: 109px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    color:#FFFFFF;
+    padding: 42px;
+    margin:-130px 0px 0px -60px; 
+}
+#experience-years{
+    font-size: 4.063rem;
+    font-weight: 700;
+}
+#experience{
+    font-size: 1.563rem;
+    font-weight: 500;
+}
 
 
 
@@ -142,6 +190,57 @@ Quick list Content style start
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------
+ Features list Part End
+ ---------- */
+
+footer{
+    margin: 240px;
+    width: 1440px;
+    height: 23px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:38px;
+    font-size: 20px;
+   color: #424242;
+}
 
 
 
@@ -262,6 +361,70 @@ Quick list Content style start
 }
 #explore-more-from-quick-feature{
     margin-top: 15px;
+}
+/* ---------
+Features list Part Start responsive
+-----------*/
+.feature-list-section{
+    margin: 10px 20px 10px 20px;
+   
+    
+}
+.features-list-title>h1{
+    border-left: 3px solid #FF900E;
+    padding-left: 8px;
+    font-size: 1.2rem ;
+    font-weight: 600;
+}
+.feature-list{
+    padding: 10px;
+    box-shadow: 10px 10px 40px rgb(229, 231, 228);
+}
+.feature-list-container{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    align-items: stretch; */
+    display: flex;
+    flex-direction: column;
+}
+/* Architect image style start */
+.architect-image>img{
+    position: relative;
+    width: 100%;
+    margin-top:30px;
+}
+
+.experience-button {
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    background-color: #FF900E;
+    border-radius: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 0px 24px 0px;
+    margin: -34px 0px 0px -8px;
+}
+#experience-years{
+    font-size: 1.63rem;
+    font-weight: 700;
+}
+#experience{
+    font-size: 0.563rem;
+    font-weight: 500;
+}
+/* footer part responsive */
+.footer{
+    margin:24px 0px 0px 0px;
+    width:100%;
+    height: 15px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top:12px;
+    padding-bottom:22px;
+    font-size: 12px;
+   color: #424242;
 }
 
  }
