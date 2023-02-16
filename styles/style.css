@@ -189,6 +189,11 @@ Features list Part Start
  .some-facts>h1{
     font-size: 2.8125rem;
     }
+.some-facts>p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
 .icons{
     display: flex;
 justify-content: space-between;
@@ -220,12 +225,40 @@ justify-content: space-between;
 }
 
   /* Some Facts section style end */
+/* -------
+Sponsors Part style start 
+---------*/
+.sponsor-container-section{
+    margin-left: 240px;
+    margin-right: 240px;
+}
 
+.sponsors{
+    text-align: center;
+}
+.sponsors>h1{
+    font-size:45px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.sponsors>p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.sponsors-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+/*--------
+ Sponsors Part style end
+ ------- */
 /* 
 footer part start
  */
 footer{
-    margin: 240px;
+    margin: 150px 240px 100px 240px;
     width: 1440px;
     height: 23px;
     background-color: #FFF4E7;
@@ -418,6 +451,34 @@ Features list Part Start responsive
 .icons{
     flex-direction: column;
 }
+/* -------
+Sponsors Part style start reponsiveness 
+---------*/
+.sponsor-container-section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sponsor>img{
+    width: 50%;
+}
+.sponsors>h1{
+    font-size:25px;
+    margin-top: 60px;
+    margin-bottom: 6px;
+}
+.sponsors>p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+}
+.sponsors-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+}
+/*--------
+ Sponsors Part style end
+ ------- */
 
 
 /* footer part responsive */
