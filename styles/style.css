@@ -136,7 +136,7 @@ Quick list Content style start
 /* ---------
 Features list Part Start 
 -----------*/
-.feature-list-section{
+.feature-list-section,.some-facts-container{
     margin: 130px 240px 130px 240px;
    
     
@@ -181,55 +181,49 @@ Features list Part Start
     font-size: 1.563rem;
     font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -------
  Features list Part End
  ---------- */
 
+ /* Some Facts section style start */
+ .some-facts>h1{
+    font-size: 2.8125rem;
+    }
+.icons{
+    display: flex;
+justify-content: space-between;
+
+}
+
+.icon{
+    margin:20px;
+    width:240px;
+    height:242px;
+    border: 2px solid #FF900E;
+    text-align: center;
+}
+.icon>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+.icon>p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.icon>h1{
+    font-size:45px;
+    margin-top: 11px;
+    margin-bottom: -10px;
+}
+
+  /* Some Facts section style end */
+
+/* 
+footer part start
+ */
 footer{
     margin: 240px;
     width: 1440px;
@@ -381,10 +375,7 @@ Features list Part Start responsive
     box-shadow: 10px 10px 40px rgb(229, 231, 228);
 }
 .feature-list-container{
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 100px;
-    align-items: stretch; */
+ 
     display: flex;
     flex-direction: column;
 }
@@ -414,6 +405,21 @@ Features list Part Start responsive
     font-size: 0.563rem;
     font-weight: 500;
 }
+ /* Some Facts section style start responsiveness */
+ .some-facts-container{
+    margin: 60px 20px 10px 20px;
+   
+    
+}
+ .some-facts>h1{
+    font-size: 1.8rem;
+    }
+
+.icons{
+    flex-direction: column;
+}
+
+
 /* footer part responsive */
 .footer{
     margin:24px 0px 0px 0px;
@@ -424,7 +430,7 @@ Features list Part Start responsive
     padding-top:12px;
     padding-bottom:22px;
     font-size: 12px;
-   color: #424242;
+   
 }
 
  }
